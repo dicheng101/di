@@ -20,6 +20,7 @@ background-color:
         border:none;
 }
 
+@import 'https://fonts.googleapis.com/css?family=Raleway';
 img{width: 100%}
 body{font:18px/1.85em 'Open Sans',Arial,Helvetice Neue,sans-serif; color:#888888; font-style:normal; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:100%;}
 a,a:hover,a:focus{text-decoration:none; -webkit-transition:all 150ms ease-in; -moz-transition:all 150ms ease-in; -o-transition:all 150ms ease-in; transition:all 150ms ease-in;}
@@ -207,4 +208,61 @@ Media Queries
         background-image: radial-gradient(circle farthest-side at 58% 81%,#009cde,#0b4782 125%);
         color: #fff;
         margin-top: 102px;
+}
+
+div.container a
+{
+
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+.blue
+{
+    background: #2196f3;
+}
+
+
+div.circleBehind a:before, div.circleBehind a:after
+{
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #00bcd470;
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
+    border-radius: 50%;
+    background: transparent;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+div.circleBehind a:after
+{
+    border-width: 2px;
+    transition: all 0.4s;
+}
+
+div.circleBehind a:hover:before
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+div.circleBehind a:hover:after
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1.3);
+}
+.lead {
+        font-size: 1.26rem;
+        font-weight: 400;
+}
+.text-success {
+        font-size: 1.26rem;
 }
