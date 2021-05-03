@@ -113,7 +113,7 @@ Flexslider Overrides
 /*------------------------------------------------------
 Gallery Styles 
 --------------------------------------------------------*/
-.gallery-item{margin-bottom:0; max-height: 360px;position:relative; overflow:hidden;}
+.gallery-item{margin-bottom:0;position:relative; overflow:hidden;}
 .gallery-item .content-gallery{text-align:center;}
 .gallery-item .content-gallery h3{color:#b10021; font-size:16px; font-weight:300; margin-top:5px; padding-bottom:5px; display:inline-block;}
 .gallery-item img{width:100%;}
