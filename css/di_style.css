@@ -10,15 +10,15 @@
 
 }
 .btn-primary{
-background-color:
+	background-color:
 	background: -webkit-linear-gradient(
 34deg
 ,#ffd518,#ffaa0a) #ffd518;
-        background: linear-gradient(
+	background: linear-gradient(
 56deg
-,#ffd518,#ffaa0a) #ffd518;
-        border:none;
-}
+,#81e7ff,#7c94ff) #82e2ff;
+	border:none;
+	}
 
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 img{width: 100%}
