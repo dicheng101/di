@@ -412,13 +412,7 @@ Disallow: /welcome/
 Disallow: /your-shop/
 Disallow: /your-shop/*
 
-User-agent: Twitterbot
-Allow: /_ngjs/resource/*/get/
-Allow: /business/create/
-Allow: /pin/*/feedback
-Allow: /pin/*/sent
-Allow: /pin/create/
-Allow: /resource/*/get/
+
 Disallow: /*/*/*/_tools/*
 Disallow: /*/*/*/more_ideas/
 Disallow: /*/*/_tools/*
