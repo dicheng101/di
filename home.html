@@ -12,12 +12,13 @@
 <!--    <meta name="twitter:card" content="summary_large_image" />-->
     <meta name="twitter:site" content="@dididi.netlify.app" />
     <!--<meta name="twitter:image"  content="{%$rs.image|default:'/wxc.png'%} | default:'' " />-->
-<!--    <meta name="twitter:title" content="{%$rs.title|truncate:20%}" />-->
-    <meta name="twitter:title" content="Home Page" />
+    <!--    <meta name="twitter:title" content="{%$rs.title|truncate:20%}" />-->
     <!-- <meta name="twitter:description" content="{%$rs.content|unescape:'html'|truncate:40%}" /> -->
+    <!--    <meta name="twitter:description" content="{%$rs.content|strip_tags|truncate:155|regex_replace:'/[\r\n]/' : ' '|replace:' ':''%}" />-->
+
+    <meta name="twitter:title" content="Home Page" />
     <meta name="twitter:description" content="I have 8 years of UI/UX design/developer work experience and rich project experience.
     The most professional design can be carried out according to business needs." />
-    <meta name="twitter:description" content="{%$rs.content|strip_tags|truncate:155|regex_replace:'/[\r\n]/' : ' '|replace:' ':''%}" />
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@dididi.netlify.app/"/>
     <meta name="twitter:title" content="Island "/>
@@ -54,6 +55,7 @@
                 <div class="col-12 col-md-9 p-4 d-flex flex-column position-static">
                     <div class="row  ">
                         <div class="col-md-9 order-md-2">
+                            <a href="http://twitter.com/share" class="twitter-share-button">Tweet</a>
                             <h2 class="featurette-heading">Hello, I’m Di.</h2>
                             <p class="lead text-dark">I have 8 years of UI/UX design work experience and rich project
                                 experience.<br> The most professional design can be carried out according to business
